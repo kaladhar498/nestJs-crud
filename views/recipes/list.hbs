@@ -1,0 +1,23 @@
+<h2>Recipes List</h2>
+
+<div class="entry">
+    <table class="table">
+        <tr>
+            <th>S.No.</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Favourite</th>
+            <th>Actions</th>
+        </tr>
+        <tr>           
+            {{#each list}}
+                <td>{{this.id}}</td>
+                <td>{{this.title}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.isFav}}</td>
+                <td>{{this.id}}</td>
+            {{/each}} 
+        </tr>
+    </table>
+    <br/>
+</div
